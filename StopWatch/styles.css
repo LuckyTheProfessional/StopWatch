@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Stick No Bills', sans-serif;
+    color: #fff;
+}
+
+body {
+    background: rgb(255, 174, 0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allBox {
+    width: 45%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgb(240, 130, 6);
+}
+
+.allBox .title {
+    letter-spacing: 5px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 5px;
+    padding-top: 30px;
+}
+
+.allBox .subtitle {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 0px 0px 25px 0px;
+}
+
+.allBox .time{
+    font-size: 2.5rem;
+    color: rgb(240, 62, 62);
+}
+
+.allBox .time > * {
+    font-size: 2.5rem;
+    color: rgb(240, 62, 62);
+}
+
+.allBox .controlBox {
+    display: flex;
+    font-size: 1.5rem;
+    width: 60%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.allBox .controlBox > * {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgb(240, 130, 6);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
